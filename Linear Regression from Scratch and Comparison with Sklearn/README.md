@@ -95,13 +95,7 @@ to reduce overfitting when multiple features are used.
 ## 📦 How to Run
 
 1.  Clone this repository.
-2.  Install requirements (numpy, matplotlib, scikit-learn).
-3.  Run the Python script.
-
-``` bash
-pip install -r requirements.txt
-python linear_regression_scratch.py
-```
+2.  Execute LinearRegression.ipynb
 
 ------------------------------------------------------------------------
 
