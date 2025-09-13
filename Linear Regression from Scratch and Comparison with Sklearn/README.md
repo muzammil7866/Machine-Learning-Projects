@@ -73,13 +73,14 @@ to reduce overfitting when multiple features are used.
 
 ------------------------------------------------------------------------
 
-## 📊 Example Results
+## 📊 Results
 
--   Initial MSE (Scratch GD): \~26548\
--   Initial MSE (Closed Form baseline): \~5361\
--   Final MSE (Scratch GD): \~5000--6000 (approx)\
--   Final MSE (Closed Form): \~5000--6000 (approx)\
--   Final MSE (Sklearn): \~5000--6000 (approx)
+- Initial MSE (Scratch GD): 26548.584269662922
+- Initial MSE (Closed Form baseline): 5361.533457238513
+- Initial MSE (Sklearn baseline): 5361.533457238513
+- Final MSE (Scratch GD): 4716.855348115728
+- Final MSE (Closed Form): 4061.8259284949268
+- Final MSE (Sklearn): 4061.8259284949268
 
 (*Exact values depend on random train/test split*)
 
@@ -87,9 +88,7 @@ to reduce overfitting when multiple features are used.
 
 ## 🖼️ Visualization
 
-The project plots: - Actual data points (blue). - Predictions from
-Scratch GD (red). - Predictions from Closed Form (purple squares). -
-Predictions from Scikit-learn (green x).
+![alt text](image.png)
 
 ------------------------------------------------------------------------
 
@@ -100,7 +99,7 @@ Predictions from Scikit-learn (green x).
 3.  Run the Python script.
 
 ``` bash
-pip install numpy matplotlib scikit-learn
+pip install -r requirements.txt
 python linear_regression_scratch.py
 ```
 
