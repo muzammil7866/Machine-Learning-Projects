@@ -9,7 +9,7 @@ LinearRegression**.
 
 ------------------------------------------------------------------------
 
-## 📊 Dataset
+##  Dataset
 
 We use the **Diabetes dataset** from `sklearn.datasets`.\
 For simplicity and visualization, only the **BMI feature** is used to
@@ -17,7 +17,7 @@ predict disease progression.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features of This Project
+##  Features of This Project
 
 -   Implementation of **Linear Regression from scratch** with Gradient
     Descent.
@@ -31,7 +31,7 @@ predict disease progression.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Project Workflow
+##  Project Workflow
 
 1.  Load dataset and select one feature (BMI).
 2.  Split data into training and test sets.
@@ -45,7 +45,7 @@ predict disease progression.
 
 ------------------------------------------------------------------------
 
-## 📈 Business Goals Achieved
+##  Business Goals Achieved
 
 -   Demonstrates **how linear regression works internally**
     (transparency in ML).
@@ -60,7 +60,7 @@ predict disease progression.
 
 ------------------------------------------------------------------------
 
-## 🔧 Further Improvements (Scratch GD Model)
+##  Further Improvements (Scratch GD Model)
 
 The Gradient Descent implementation can be improved in the following
 ways: - **Learning Rate Scheduling**: Dynamically adjust learning rate
@@ -73,7 +73,7 @@ to reduce overfitting when multiple features are used.
 
 ------------------------------------------------------------------------
 
-## 📊 Results
+##  Results
 
 - Initial MSE (Scratch GD): 26548.584269662922
 - Initial MSE (Closed Form baseline): 5361.533457238513
@@ -86,26 +86,20 @@ to reduce overfitting when multiple features are used.
 
 ------------------------------------------------------------------------
 
-## 🖼️ Visualization
+##  Visualization
 
 ![alt text](image.png)
 
 ------------------------------------------------------------------------
 
-## 📦 How to Run
+##  How to Run
 
 1.  Clone this repository.
-2.  Install requirements (numpy, matplotlib, scikit-learn).
-3.  Run the Python script.
-
-``` bash
-pip install -r requirements.txt
-python linear_regression_scratch.py
-```
+2.  Execute LinearRegression.ipynb
 
 ------------------------------------------------------------------------
 
-## 🎯 Conclusion
+##  Conclusion
 
 This project bridges **theory and practice** by showing both: - **How
 linear regression works under the hood** (scratch GD + Closed Form). -
