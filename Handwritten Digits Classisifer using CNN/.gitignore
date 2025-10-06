@@ -52,15 +52,6 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
-# Images and datasets (optional)
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.csv
-*.npy
-*.npz
-
 # Ignore model files (large binaries)
 *.h5
 *.pth
