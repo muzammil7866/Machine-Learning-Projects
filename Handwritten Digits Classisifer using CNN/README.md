@@ -5,7 +5,7 @@ It showcases both **AI model development** and **API deployment**, allowing user
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 - **Dataset:** MNIST (70,000 grayscale images of handwritten digits from 0–9)  
 - **Frameworks:** TensorFlow/Keras for model training, FastAPI for deployment  
@@ -17,7 +17,7 @@ It showcases both **AI model development** and **API deployment**, allowing user
 
 ---
 
-## ⚙️ Features
+## Features
 
 - CNN-based digit classification
 - REST API built with FastAPI
@@ -27,7 +27,7 @@ It showcases both **AI model development** and **API deployment**, allowing user
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 ```bash
@@ -63,7 +63,7 @@ You can use the Swagger UI to upload a handwritten digit image and get a predict
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - Input Layer: 28x28 grayscale image
 - Conv2D + MaxPooling layers for feature extraction
@@ -72,7 +72,7 @@ You can use the Swagger UI to upload a handwritten digit image and get a predict
 
 ---
 
-## 📈 Performance
+## Performance
 
 - Accuracy: ~99% on MNIST test set  
 - Optimizer: Adam  
@@ -81,14 +81,14 @@ You can use the Swagger UI to upload a handwritten digit image and get a predict
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 Handwritten Digits Classifier using CNN/
 │
 ├── main.py                  # FastAPI server file
 ├── mnist_cnn/               # Saved model file upon running
-├── test.png                 # Test image
+├── test.png                 # Test image for upload
 ├── requirements.txt         # Dependencies
 ├── README.md                # Project documentation
 └── venv/                    # Virtual environment (excluded from Git)
@@ -96,7 +96,7 @@ Handwritten Digits Classifier using CNN/
 
 ---
 
-## 🧩 FastAPI Endpoints
+## FastAPI Endpoints
 
 | Endpoint | Method | Description |
 |-----------|--------|-------------|
@@ -105,7 +105,7 @@ Handwritten Digits Classifier using CNN/
 
 ---
 
-## 🔧 Business Goals Achieved
+## Business Goals Achieved
 
 This project demonstrates how **machine learning models can be integrated into production environments** through APIs.  
 It serves as a foundational template for automating recognition systems in:
@@ -116,7 +116,7 @@ It serves as a foundational template for automating recognition systems in:
 
 ---
 
-## 🧾 Requirements
+## Requirements
 
 Dependencies are listed in `requirements.txt`. You can download them using:
 ```bash
@@ -125,7 +125,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
 
 - Add model retraining via API  
 - Include frontend dashboard for visual predictions  
@@ -133,7 +133,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Muzammil Sohail**  
 AI Engineer | Machine Learning & Deep Learning Enthusiast  
@@ -141,6 +141,6 @@ AI Engineer | Machine Learning & Deep Learning Enthusiast
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.

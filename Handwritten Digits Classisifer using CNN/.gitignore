@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+mnist_cnn/
+
+
 # Virtual environments
 venv/
 .env/
