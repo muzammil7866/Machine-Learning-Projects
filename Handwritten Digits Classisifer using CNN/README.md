@@ -76,6 +76,13 @@ You can use the Swagger UI to upload a handwritten digit image and get a predict
 
 !["test image"](test.png)
 
+## Training Image
+
+!["training image"](training.png)
+
+## Response Image
+!["response image"](response.png)
+
 
 ## Performance
 
@@ -94,6 +101,8 @@ Handwritten Digits Classifier using CNN/
 ├── main.py                  # FastAPI server file
 ├── mnist_cnn/               # Saved model file upon running
 ├── test.png                 # Test image for upload
+├── training.png             # training image for insights 
+├── response.png             # accuracy response upon test image
 ├── requirements.txt         # Dependencies
 ├── README.md                # Project documentation
 └── venv/                    # Virtual environment (excluded from Git)
