@@ -1,81 +1,146 @@
-# 🧠 MNIST Digit Classification using CNN  
+# Handwritten Digits Classifier using CNN
 
-## 📌 Project Overview  
-This project implements a **Convolutional Neural Network (CNN)** to classify handwritten digits (0–9) from the **MNIST dataset**. The model achieves high accuracy by leveraging deep learning techniques.  
-
-The project also includes an easy-to-run pipeline so anyone can train, evaluate, and test the model with minimal setup.  
+This project demonstrates a **Convolutional Neural Network (CNN)** built and deployed using **FastAPI** to classify handwritten digits from the **MNIST dataset**.  
+It showcases both **AI model development** and **API deployment**, allowing users to upload digit images for real-time classification.
 
 ---
 
-## 🎯 Business Goals Achieved  
-- ✅ Automated recognition of handwritten digits, which can be extended to **OCR (Optical Character Recognition)** systems.  
-- ✅ Demonstrates the use of **deep learning** in solving **real-world image classification problems**.  
-- ✅ Provides a baseline for integrating **AI-based digit recognition** into applications such as:  
-  - Bank cheque processing  
-  - Postal code reading  
-  - Digital form automation  
+## 📊 Project Overview
+
+- **Dataset:** MNIST (70,000 grayscale images of handwritten digits from 0–9)  
+- **Frameworks:** TensorFlow/Keras for model training, FastAPI for deployment  
+- **Objective:** Build and serve a deep learning model capable of accurately classifying handwritten digits.  
+- **Business Goal:**  
+  - Automate digit recognition (useful in postal systems, bank check processing, form reading, etc.)  
+  - Demonstrate a deployable AI service using FastAPI and TensorFlow  
+  - Enable real-world integration of AI models through REST APIs  
 
 ---
 
-## ⚙️ Tech Stack  
-- **Python 3.11.5**  
-- **TensorFlow / Keras** – Model building & training  
-- **NumPy & Pandas** – Data processing  
-- **Matplotlib** – Visualizations  
-- **PIL (Pillow)** – Image handling  
+## ⚙️ Features
+
+- CNN-based digit classification
+- REST API built with FastAPI
+- Image upload and prediction endpoint
+- Model trained and saved as `.keras` file
+- Easily deployable using Uvicorn
 
 ---
 
-## 🚀 How to Run the Project  
+## 🚀 How to Run the Project
 
-### 1. Clone the Repository  
+### 1. Clone the Repository
 ```bash
-git clone <your-repo-link>
-cd mnist-cnn
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd "Handwritten Digits Classifier using CNN"
 ```
 
-### 2. Create Virtual Environment  
+### 2. Create and Activate Virtual Environment
 ```bash
+# Windows
 python -m venv venv
-```
-
-### 3. Activate Virtual Environment  
-- **Windows (CMD):**
-```bash
 venv\Scripts\activate
-```
-- **Windows (PowerShell):**
-```powershell
-.\venv\Scripts\Activate.ps1
-```
-- **Mac/Linux:**
-```bash
+
+# macOS/Linux
+python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 4. Install Dependencies  
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Run the Project  
+### 4. Run the FastAPI App
 ```bash
-python main.py
+uvicorn main:app --reload
+```
+Then open the following URL in your browser:
+```
+http://127.0.0.1:8000/docs
+```
+You can use the Swagger UI to upload a handwritten digit image and get a prediction.
+
+---
+
+## 🧠 Model Architecture
+
+- Input Layer: 28x28 grayscale image
+- Conv2D + MaxPooling layers for feature extraction
+- Dense layers for classification
+- Output layer: 10 neurons (digits 0–9)
+
+---
+
+## 📈 Performance
+
+- Accuracy: ~99% on MNIST test set  
+- Optimizer: Adam  
+- Loss Function: Categorical Crossentropy  
+- Epochs: 5–10 (adjustable)
+
+---
+
+## 📁 Directory Structure
+
+```
+Handwritten Digits Classifier using CNN/
+│
+├── main.py                  # FastAPI server file
+├── mnist_cnn/               # Saved model file upon running
+├── test.png                 # Test image
+├── requirements.txt         # Dependencies
+├── README.md                # Project documentation
+└── venv/                    # Virtual environment (excluded from Git)
 ```
 
 ---
 
-## 📊 Results  
-- Achieved high test accuracy on MNIST dataset.  
-- Demonstrated robust CNN performance on digit classification tasks.  
+## 🧩 FastAPI Endpoints
+
+| Endpoint | Method | Description |
+|-----------|--------|-------------|
+| `/` | GET | Welcome route |
+| `/predict` | POST | Upload an image for digit prediction |
 
 ---
 
-## 📂 Project Structure  
+## 🔧 Business Goals Achieved
+
+This project demonstrates how **machine learning models can be integrated into production environments** through APIs.  
+It serves as a foundational template for automating recognition systems in:
+- Banking (check number recognition)  
+- Postal and logistics digit scanning  
+- Handwritten form analysis  
+- OCR-based document processing  
+
+---
+
+## 🧾 Requirements
+
+Dependencies are listed in `requirements.txt`. You can download them using:
+```bash
+pip install -r requirements.txt
 ```
-mnist-cnn/
-│── main.py              # Main training & evaluation script
-│── requirements.txt     # Dependencies
-│── README.md            # Project documentation
-│── venv/                # Virtual environment (not for deployment)
-```
+
+---
+
+## 🧠 Future Improvements
+
+- Add model retraining via API  
+- Include frontend dashboard for visual predictions  
+- Support multi-digit image recognition  
+
+---
+
+## 🧑‍💻 Author
+
+**Muzammil Sohail**  
+AI Engineer | Machine Learning & Deep Learning Enthusiast  
+📧 [muzammilsohail1718@gmail.com]
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
