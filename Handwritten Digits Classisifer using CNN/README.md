@@ -74,7 +74,7 @@ You can use the Swagger UI to upload a handwritten digit image and get a predict
 
 ## Test Image
 
-![test.png]
+!(test.png)
 
 
 ## Performance
