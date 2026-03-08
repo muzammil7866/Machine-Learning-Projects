@@ -96,7 +96,7 @@ archive/**/*.png
 # git lfs install
 # git lfs track "*.jpg" "*.jpeg" "*.png"
 
-gesture_env_311 # Virtual environment for Python 3.11
+gesture_env_311/ # Virtual environment for Python 3.11
 
 *.h5
 *.png
