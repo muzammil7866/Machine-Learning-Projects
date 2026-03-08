@@ -1,0 +1,97 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Lab & Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Virtual environments
+.venv
+venv
+env
+
+# Large generated models (can be retrained)
+*.h5
+*.pb
+saved_model/
+
+# Other generated files
+*.pkl
+*.joblib
+
+# Generated visualizations
+results/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+*.lnk
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Keep archive dataset
+!archive/
+!archive/train/
+!archive/train/cats/
+!archive/train/dogs/
+!archive/test/
+!archive/test/cats/
+!archive/test/dogs/
+archive/**/*.jpg
+archive/**/*.jpeg
+archive/**/*.png
+
+# Note: If archive images are too large,
+# Consider using Git LFS for images:
+# git lfs install
+# git lfs track "*.jpg" "*.jpeg" "*.png"
