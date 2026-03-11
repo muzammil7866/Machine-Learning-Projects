@@ -16,6 +16,10 @@ This repository is a professional and continuously expanding machine learning po
 
 The repository demonstrates end-to-end ML workflows, from problem framing and data preparation to model evaluation and iterative improvement.
 
+## BS AI Coursework Context
+
+Relevant coursework influence in this repository includes supervised and unsupervised learning, statistics for AI, and model validation practices.
+
 ## Business Goals
 
 - Convert data into measurable insights and decision support.
