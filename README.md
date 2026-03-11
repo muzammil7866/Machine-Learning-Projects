@@ -1,6 +1,6 @@
 # Machine Learning Projects 🤖
 
-This repository is a professional and continuously expanding machine learning portfolio developed during BS AI final-semester work and practical engineering exploration.
+This repository is a professional and continuously expanding machine learning portfolio built through engineering practice, independent experimentation, and selected BS AI coursework.
 
 ## 🎯 Purpose
 
