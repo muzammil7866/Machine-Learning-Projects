@@ -15,7 +15,6 @@ This repository is a professional and continuously expanding machine learning po
 ## Overview
 
 The repository demonstrates end-to-end ML workflows, from problem framing and data preparation to model evaluation and iterative improvement.
-It also includes selected work aligned with BS AI machine learning coursework foundations.
 
 ## Business Goals
 
